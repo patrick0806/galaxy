@@ -1,11 +1,11 @@
 {
-  "name": "galaxy",
+  "name": "ts-wizard",
   "version": "1.0.0",
   "main": "app.ts",
   "description": "My CLI for create my projects",
   "license": "MIT",
   "bin": {
-    "galaxy": "./dist/main.js"
+    "wizard": "./dist/main.js"
   },
   "scripts": {
     "prebuild": "rimraf dist",
