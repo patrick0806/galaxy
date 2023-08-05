@@ -7,7 +7,7 @@ Bem-vindo à Minha CLI de Geração de Projetos e Componentes! Esta CLI foi proj
 Para instalar a CLI, você precisa ter o Node.js e o npm instalados em sua máquina. Execute o seguinte comando para instalar globalmente a CLI:
 
 ```bash
-npm install -g galaxy
+npm i -g ts-wizard
 ```
 
 ## Uso
