@@ -1,6 +1,6 @@
 {
   "name": "ts-wizard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "app.ts",
   "description": "My CLI for create my projects",
   "license": "MIT",

@@ -1,6 +1,6 @@
-# Galaxy minha CLI de Geração de Projetos e Componentes
+# Wizard minha CLI de Geração de Projetos e Componentes
 
-Bem-vindo à Minha CLI de Geração de Projetos e Componentes! Esta CLI foi projetada para ajudar a simplificar o processo de criação de projetos, rotas e componentes em vários frameworks, incluindo NestJS. No momento, o comando `create-nest-rest` está disponível para criar rapidamente um projeto NestJS configurado com algumas opções predefinidas.
+Bem-vindo a minha CLI de Geração de Projetos e Componentes! Esta CLI foi projetada para ajudar a simplificar o processo de criação de projetos, rotas e componentes em vários frameworks, incluindo NestJS. No momento, o comando `create-nest-rest` e `create-nest-rest-route`estão disponíveis para criar rapidamente um projeto NestJS configurado com algumas opções predefinidas e criar rotas para o projeto.
 
 ## Instalação
 
@@ -15,7 +15,7 @@ npm i -g ts-wizard
 Após a instalação, você pode usar a CLI para criar projetos e componentes. Aqui está um exemplo de como usar o comando create-nest-rest:
 
 ```bash
-galaxy create-nest-rest my-project
+wizard create-nest-rest my-project
 ```
 
 ### Isso criará um novo projeto NestJS chamado my-project com as seguintes configurações pré-definidas:
