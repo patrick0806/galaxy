@@ -18,6 +18,8 @@ jobs:
       - run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Build
+        run: npm run build
       - name: Publish to npm
         uses: JS-DevTools/npm-publish@v2
         with:
