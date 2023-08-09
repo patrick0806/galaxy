@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
 
-import { <%= routeName %>ResponseDTO } from './dtos/response.dto';
+import { <%= className %>ResponseDTO } from './dtos/response.dto';
 
 @Injectable()
-export class <%= routeName %>Service {
+export class <%= className %>Service {
   constructor() {}
 
-  async execute(): Promise<<%= routeName %>ResponseDTO> {
-    console.log("criado");   
+  async execute(): Promise<<%= className %>ResponseDTO> {
+    return null;
   }
 }

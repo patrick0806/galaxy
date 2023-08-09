@@ -1,22 +1,22 @@
 import { Body, Controller, Get, HttpStatus} from '@nestjs/common';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 
-import {<%= routeName %>RequestDTO} from "./dtos/request.dto";
-import { <%= routeName %>ResponseDTO } from "./dtos/response.dto";
-import { <%= routeName %>Service } from "./<%= routeName %>.service";
+import {<%= className %>RequestDTO} from "./dtos/request.dto";
+import { <%= className %>ResponseDTO } from "./dtos/response.dto";
+import { <%= className %>Service } from "./<%= fileName %>.service";
 
 @ApiTags("Example")
 @Controller()
-export class <%= routeName %>Controller{
-    constructor(private <%= routeName %>Service: <%= routeName %>Service){}
+export class <%= className %>Controller{
+    constructor(private <%= className %>Service: <%= className %>Service){}
 
   @Get('/example')
   @ApiResponse({
     status: HttpStatus.OK,
     description: 'OK',
-    type: <%= routeName %>ResponseDTO,
+    type: <%= className %>ResponseDTO,
   })
-  async handle(@Body() body: <%= routeName %>RequestDTO):Promise<any>{
+  async handle(@Body() body: <%= className %>RequestDTO):Promise<any>{
     return body;
   }
 }
